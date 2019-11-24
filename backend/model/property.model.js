@@ -8,7 +8,8 @@ const propertySchema = mongoose.Schema({
         state: { type: String },
         country: { type: String },
         latitude: { type: String },
-        longitude: { type: String }
+        longitude: { type: String },
+        pincode: { type: Number}
     },
     owner: {
         type: mongoose.Schema.Types.ObjectId,
