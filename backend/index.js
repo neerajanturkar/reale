@@ -20,10 +20,6 @@ mongoose.connect('mongodb://localhost:27017/reale');
 mongoose.connection.on('connected', () => {
     console.log("Database connected");
 });
-mongoose.connection.console.error('error',(err) => {
-    if(err){
-        console.log("Error : " + err);
-    }
-});
+
 
 app.listen(PORT, () => console.log(`Server started on ${PORT}`));
