@@ -1,0 +1,50 @@
+.header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/724383.jpg') ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.h1{
+    color: white;
+    margin-bottom: 70px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+.search{
+    height: 30px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 500px;
+    border-radius: 30px;
+
+}
+.search-btn{
+    height: 50px;
+    width: 150px;
+    border: none;
+    color: black;
+    border-radius: 30px;
+}
+.example-h2 {
+    margin: 10px;
+}
+
+.example-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.example-margin {
+    margin: 0 10px;
+    color: white;
+}

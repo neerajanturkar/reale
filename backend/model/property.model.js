@@ -2,14 +2,15 @@ const mongoose = require('mongoose');
 
 const propertySchema = mongoose.Schema({
     location: {
-        house_number: { type: Number },
+        house_number: { type: String },
         street: { type: String },
         district: { type: String },
+        city: {type: String },
         state: { type: String },
         country: { type: String },
         latitude: { type: String },
         longitude: { type: String },
-        pincode: { type: Number}
+        pincode: { type: String }
     },
     owner: {
         type: mongoose.Schema.Types.ObjectId,

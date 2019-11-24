@@ -1,0 +1,18 @@
+.title-center {
+    flex: 1 1 auto;
+    text-align: center;
+    font-family: "Arial Narrow";
+
+}
+mat-toolbar.mat-toolbar {
+    position: absolute;
+    background-color:transparent;
+}
+.sign-btn {
+    background-color:transparent;
+    font-family: "Arial Narrow";
+    font-size: 10px;
+    color: white;
+    border:none ;
+
+}

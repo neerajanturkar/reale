@@ -1,0 +1,17 @@
+<app-header></app-header>
+
+<div class="header">
+        <form>
+                <h1 class="h1">Find your new home with us!</h1>
+                <div class="form-box">
+                        <input type="text" class="search" name="search"placeholder="City, District, Street, ZIP code" [(ngModel)]="searchTxt">
+                        <mat-checkbox class="example-margin" name="buy" [(ngModel)]="buy">Buy</mat-checkbox>
+                        <mat-checkbox class="example-margin" name="sell" [(ngModel)]="rent">Rent</mat-checkbox>
+                        <button (click)="onSearch();" type="button" class="search-btn">Search</button>
+                </div>
+        </form>
+
+</div>
+
+
+
